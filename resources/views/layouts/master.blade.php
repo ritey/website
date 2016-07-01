@@ -6,6 +6,26 @@
     <meta charset="utf-8">
 	<title>David Wright - London Based Laravel Web Developer</title>
 	<meta name="description" content="David Wright PHP Laravel developer in London, UK. With over 10 years of web development experience and still plenty of passion for learning web technologies I'm currently pushing the limits with the Laravel framework, ReactJS and API's to build the best web applications and user experiences.">
+
+	<!--
+
+		############################################### HELLO ######################################################
+
+		Hi, thanks for checking the source. I've used a premium bootstrap template that I've implemented into
+		Laravel blade templates using SASS, Gulp, Laravel's elixir and various Javascript plugins.
+
+		If you want to see more examples of my coding abilities either contact me, Twitter @ritey or check out
+		my Github profile: http://www.github.com/ritey
+
+		Thanks
+
+		Dave
+
+		#############################################################################################################
+
+	-->
+
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Content-Language" content="en-gb">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
