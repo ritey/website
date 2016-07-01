@@ -12,3 +12,5 @@
 */
 
 Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index' ]);
+
+Route::get('/cv', ['as' => 'cv', 'uses' => 'HomeController@cv' ]);

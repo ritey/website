@@ -14,28 +14,12 @@
 	<meta name="verify-v1" content="z+lUQDHHTdBKwH6f7hkGCRCjZt8tOjBKZURr17QxTBc=">
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="assets/images/favicon-57.jpg">
-	<link rel="apple-touch-icon" href="assets/images/favicon-57.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon-72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon-114.jpg">
+	<link rel="shortcut icon" href="/assets/images/favicon-57.jpg">
+	<link rel="apple-touch-icon" href="/assets/images/favicon-57.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon-72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon-114.jpg">
 
-	<!-- Bootstrap core CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Plugins -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/ionicons.min.css" rel="stylesheet">
-	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">
-	<link href="assets/css/owl.carousel.css" rel="stylesheet">
-	<link href="assets/css/superslides.css" rel="stylesheet">
-	<link href="assets/css/vertical.css" rel="stylesheet">
-	<link href="assets/css/animate.css" rel="stylesheet">
-
-	<!-- Template core CSS -->
-	<link href="assets/css/style.css" rel="stylesheet">
-
-	<link href="{{ elixir('css/styles.css') }}" rel="stylesheet">
+	<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +28,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript" src="{{ elixir('js/scripts.js') }}"></script>
+	<script type="text/javascript" src="{{ elixir('js/app.js') }}"></script>
 
 </head>
 <body>
@@ -107,7 +91,7 @@
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="/">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="assets/images/logo_ritey.jpg" alt="" width="95">
+						<img src="/assets/images/logo_ritey.jpg" alt="" width="95">
 					</a>
 				</div>
 
@@ -176,29 +160,6 @@
 	<div style="display: block;" class="scroll-up">
 		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
 	</div>
-
-	<!-- Javascript files -->
-	<script src="assets/js/jquery-2.1.3.min.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.superslides.min.js"></script>
-	<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/packery-mode.pkgd.min.js"></script>
-	<script src="assets/js/appear.js"></script>
-	<script src="assets/js/jquery.easing.1.3.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/jqBootstrapValidation.js"></script>
-	<script src="assets/js/jquery.fitvids.js"></script>
-	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
-	<script src="assets/js/smoothscroll.js"></script>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script><script src="http://maps.gstatic.com/maps-api-v3/api/js/21/4/main.js"></script>
-	<script src="assets/js/gmaps.js"></script>
-	<script src="assets/js/contact.js"></script>
-	<script src="assets/js/custom.js"></script>
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];

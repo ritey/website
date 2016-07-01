@@ -12,7 +12,7 @@ class BaseController extends Controller {
 	protected $basename;
 
 	public function __construct(Cache $cache) {
-		if (env('APP_NAME') == 'local') {
+		if (env('APP_ENV') == 'local') {
 			$cache->flush();
 		}
 	}

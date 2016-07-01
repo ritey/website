@@ -33,4 +33,21 @@ class HomeController extends BaseController {
 		}
 		return $view;
 	}
+
+	public function cv()
+	{
+		$key = $this->getKeyName(__function__);
+
+		if ($this->cache->has($key)) {
+			$view = $this->cache->get($key);
+		} else {
+			$vars = [
+				'page_title' => '',
+				'request' => $this->request,
+			];
+			$view = view('pages.cv',compact('vars'))->render();
+			$this->cache->add($key, $view, env('APP_CACHE_MINUTES'));
+		}
+		return $view;
+	}
 }
