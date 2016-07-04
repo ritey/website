@@ -51,6 +51,8 @@
 
 	<script type="text/javascript" src="{{ elixir('js/app.js') }}"></script>
 
+	@yield('head')
+
 </head>
 <body>
 
@@ -116,7 +118,7 @@
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="/">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="/assets/images/logo_ritey.jpg" alt="" width="95">
+						<img src="/assets/images/logo_ritey.jpg" alt="Ritey" width="95">
 					</a>
 				</div>
 

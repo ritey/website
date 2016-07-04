@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('head')
+ <link href="{{ route('cv') }}" rel="canonical" />
+@endsection
+
 @section('content')
 
 <section class="module-small">
@@ -26,7 +30,7 @@
 
 				<p>Over the years I've worked in various sized teams, on my own, and currently heading up a <strong>technical development</strong> team for a digital agency based in <strong>London</strong>. My work has typically been in the commercial space, however, I've also released some open source libraries on behalf of the company employing me and also on a personal level.</p>
 
-				<p>I have a keen interest in motorsport, entrepreneurial activities and the evolving world of technology and I have complete respect for web designers (I'm not a designer and the themes/designs in the projects I've worked on are not my work).</p>
+				<p>I have a keen interest in motorsport, entrepreneurial activities and the evolving world of technology and I have complete respect for web designers <em>(I'm not a designer and the themes/designs in the projects I've worked on are not my work).</em></p>
 
 			</div>
 
@@ -36,7 +40,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a href="http://pitchy.io" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://pitchy.io" target="_blank">
 							<img src="/assets/images/logos/pitchy-logo.png" alt="Pitchy">
 						</a>
 					</div>
@@ -44,7 +48,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a href="https://www.nationalfundingscheme.org" target="_blank">
+						<a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org" target="_blank">
 							<img src="assets/images/logos/donate-logo-black.png" alt="DONATE">
 						</a>
 					</div>
@@ -52,7 +56,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a href="http://www.doblotto.com" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://www.doblotto.com" target="_blank">
 							<img src="assets/images/logos/doblotto-logo.png" alt="Doblotto">
 						</a>
 					</div>
@@ -60,7 +64,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a href="http://www.nuffieldresearchplacements.org" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org" target="_blank">
 							<img src="assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
 						</a>
 					</div>
@@ -80,7 +84,7 @@
 
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<h2 class="module-title font-alt">Skills</h2>
+				<h4 class="module-title font-alt">Skills</h4>
 			</div>
 		</div>
 
@@ -94,7 +98,7 @@
 
 						<h5 class="font-alt">Technologies</h5>
 						<ul>
-							<li><a href="http://www.php.net">PHP5+ and 7 Development</a>
+							<li><a rel="nofollow" target="_blank" href="http://www.php.net">PHP5+ and 7 Development</a>
 								<ul>
 									<li>Laravel Framework</li>
 									<li>Symfony Framework</li>
@@ -102,7 +106,7 @@
 							</li>
 							<li>Database development
 								<ul>
-									<li><a href="http://www.mysql.com/">MySQL</a> / <a href="https://mariadb.org/">MariaDB</a>
+									<li><a rel="nofollow" target="_blank" href="http://www.mysql.com/">MySQL</a> / <a rel="nofollow" target="_blank" href="https://mariadb.org/">MariaDB</a>
 										<ul>
 											<li>HAProxy balancing</li>
 											<li>Clustering</li>
@@ -132,11 +136,11 @@
 							</li>
 							<li>Testing
 								<ul>
-									<li>Unit testing using <a href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
-									<li><a href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
+									<li>Unit testing using <a rel="nofollow" target="_blank" href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
+									<li><a rel="nofollow" target="_blank" href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
 								</ul>
-							<li>Continuous Integration  <a href="http://jenkins-ci.org/">Jenkins</a> and <a href="https://travis-ci.org/">Travis</a></li>
-							<li>Payment portal integration - <a href="http://www.sagepay.com/">SagePay</a>, <a href="http://www.paypoint.co.uk/">PayPoint</a>, <a href="https://stripe.com/">Stripe</a>, <a href="http://www.paypal.co.uk/uk">PayPal</a> and <a href="http://checkout.google.com/sell/">Google Checkout</a></li>
+							<li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a></li>
+							<li>Payment portal integration - <a rel="nofollow" target="_blank" ref="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
 						</ul>
 
 					</div>
@@ -152,7 +156,7 @@
 									<li>Web standards</li>
 								</ul>
 							</li>
-							<li>Knowledge of <a href="https://www.pcisecuritystandards.org/">PCI</a> procedures and methods</li>
+							<li>Knowledge of <a rel="nofollow" target="_blank" href="https://www.pcisecuritystandards.org/">PCI</a> procedures and methods</li>
 							<li>Effective communicator</li>
 							<li>Reliable</li>
 							<li>Leader</li>
@@ -181,8 +185,8 @@
 				<h4 class="font-alt m-t-0 m-b-20">Github repositories</h4>
 
 					<ul>
-						<li><a href="https://github.com/ritey/base-laravel-react" target="_blank">Laravel + ReactJS Base</a> - Latest Laravel project with ReactJS and webpack configured ready for a new project.</li>
-						<li><a href="https://github.com/ritey/website" target="_blank">This website</a> - Code base for this website, in Laravel using simple routes, and blade templates.</li>
+						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/base-laravel-react" target="_blank">Laravel + ReactJS Base</a> - Latest Laravel project with ReactJS and webpack configured ready for a new project.</li>
+						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/website" target="_blank">This website</a> - Code base for this website, in Laravel using simple routes, and blade templates.</li>
 					</ul>
 
 
@@ -193,7 +197,7 @@
 				<h4 class="font-alt m-t-0 m-b-20">Scripts</h4>
 
 				<ul>
-					<li><a href="http://github.com/ritey/booter" target="_blank">Booter</a> - Simple script to setup a Linux server, useful for when Puppet isn't really required.</li>
+					<li><a rel="nofollow" target="_blank" href="http://github.com/ritey/booter" target="_blank">Booter</a> - Simple script to setup a Linux server, useful for when Puppet isn't really required.</li>
 				</ul>
 
 			</div>
@@ -205,7 +209,7 @@
 				<ul>
 					<li>Sublime 3 + Coda 2</li>
 					<li>Virtualbox</li>
-					<li><a href="http://git-scm.com/">Git</a> / <a href="https://github.com/">GitHub</a> / SourceTree</li>
+					<li><a rel="nofollow" target="_blank" href="http://git-scm.com/">Git</a> / <a rel="nofollow" target="_blank" href="https://github.com/">GitHub</a> / SourceTree</li>
 					<li>MySQL Workbench / Sequel Pro</li>
 					<li>Docker</li>
 					<li>Gulp</li>
@@ -284,7 +288,7 @@
 
 				<h4 class="font-alt m-t-0 m-b-20">Additional details</h4>
 
-				<p>If you wish to receive a PDF of my CV please email dave { at } ritey.com. Alternatively you can <a href="http://twitter.com/ritey">tweet me</a>.</p>
+				<p>If you wish to receive a PDF of my CV please email dave { at } ritey.com. Alternatively you can <a rel="nofollow" target="_blank" href="http://twitter.com/ritey">tweet me</a>.</p>
 
 			</div>
 
