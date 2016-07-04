@@ -147,6 +147,8 @@
 							</li>
 							<li>Effective communicator</li>
 							<li>Reliable</li>
+							<li>Leader</li>
+							<li>Team player</li>
 						</ul>
 					</div>
 
@@ -190,7 +192,18 @@
 
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20"></h4>
+				<h4 class="font-alt m-t-0 m-b-20">Tools</h4>
+
+				<ul>
+					<li>Sublime 3 + Coda 2</li>
+					<li>Virtualbox</li>
+					<li>Git / SourceTree</li>
+					<li>MySQL Workbench / Sequel Pro</li>
+					<li>Docker</li>
+					<li>Gulp</li>
+					<li>SASS</li>
+					<li>Slack / Trello</li>
+				</ul>
 
 			</div>
 
