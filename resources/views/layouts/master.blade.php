@@ -41,6 +41,8 @@
 
 	<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
+	<meta name="google-site-verification" content="QURomiXUt2oJSRATs9oVG3jxN7BIDTOmGI2TMJdZjq0" />
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
