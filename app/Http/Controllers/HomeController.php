@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\BaseController;
 use Illuminate\Contracts\Cache\Repository as Cache;
+use App;
 
 class HomeController extends BaseController {
 
@@ -49,5 +50,20 @@ class HomeController extends BaseController {
 			$this->cache->add($key, $view, env('APP_CACHE_MINUTES'));
 		}
 		return $view;
+	}
+
+	public function sitemap()
+	{
+		$sitemap = App::make('sitemap');
+
+		$sitemap->setCache('laravel.sitemap',3600);
+
+		if (!$sitemap->isCached()) {
+			$sitemap->add(url('/'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/hire-me'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/freelance-php-developer'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+		}
+
+		return $sitemap->render('xml');
 	}
 }
