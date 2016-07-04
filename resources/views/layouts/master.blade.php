@@ -30,7 +30,7 @@
 	<meta http-equiv="Content-Language" content="en-gb">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="Author" content="David Wright">
-	<meta name="google-site-verification" content="1bRbzJGZc_yfk2L3Jbxehb9mZY4VslMLNaOvnnmX0L4">
+	<meta name="google-site-verification" content="QURomiXUt2oJSRATs9oVG3jxN7BIDTOmGI2TMJdZjq0" />
 	<meta name="verify-v1" content="z+lUQDHHTdBKwH6f7hkGCRCjZt8tOjBKZURr17QxTBc=">
 
 	<!-- Favicons -->
@@ -41,7 +41,6 @@
 
 	<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
 
-	<meta name="google-site-verification" content="QURomiXUt2oJSRATs9oVG3jxN7BIDTOmGI2TMJdZjq0" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
