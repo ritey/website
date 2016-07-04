@@ -76,6 +76,8 @@
 
 					<li><a href="http://addresses.ritey.com" target="_blank" title="Addresses - UK Postcode Checker">ADDRESSES</a></li>
 
+					<li><a href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a></li>
+
 				</ul>
 
 			</nav>
@@ -88,7 +90,9 @@
 				<div class="row">
 
 					<div class="col-sm-12 text-center">
+
 						<p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="#">ritey.com</a>, All Rights Reserved.</p>
+
 					</div>
 
 				</div>
@@ -132,6 +136,8 @@
 					<li><a href="/" title="Home">Home</a></li>
 					<li><a href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME</a></li>
 					<li><a href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">ADDRESSES</a></li>
+
+					<li><a href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a></li>
 				</ul>
 
 			</div>
@@ -163,7 +169,8 @@
 
 					<div class="col-sm-12">
 
-						<p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="#">ritey.com</a>, All Rights Reserved.</p>
+						<p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
+						<p class="copyright text-center m-b-0">I live in Surrey, work and develop in Richmond and London areas.</p>
 
 					</div>
 
