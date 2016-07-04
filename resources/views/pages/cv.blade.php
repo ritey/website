@@ -8,7 +8,6 @@
 
 		<div class="row">
 
-			<!-- ABOUT STUDIO  -->
 			<div class="col-sm-4">
 
 				<h4 class="font-alt m-t-0 m-b-20">David Wright</h4>
@@ -19,54 +18,55 @@
 
 				<p>Typical of the modern developer, I've experienced many different languages and development methodologies which has assisted in a wide range of understanding and expertise, however, my primary focus is as a PHP developer typically using the Laravel framework.</p>
 
-
 			</div>
-			<!-- /ABOUT STUDIO  -->
 
-			<!-- WHAT WE DO -->
 			<div class="col-sm-4">
 
 				<h4 class="font-alt m-t-0 m-b-20">Senior Developer</h4>
+
 				<p>Over the years I've worked in various sized teams, on my own, and currently heading up a technical development team for a digital agency based in London. My work has typically been in the commercial space, however, I've also released some open source libraries on behalf of the company employing me and also on a personal level.</p>
 
-				<p>I have a keen interest in motorsport, entrepreneurial activities and the evolving world of technology.</p>
+				<p>I have a keen interest in motorsport, entrepreneurial activities and the evolving world of technology and I have complete respect for web designers (I'm not a designer and the themes/designs in the projects I've worked on are not my work).</p>
 
 			</div>
-			<!-- /WHAT WE DO -->
 
-			<!-- SKILLS -->
 			<div class="col-sm-4">
 
-				<h6 class="progress-title font-alt">Coding effort</h6>
-				<div class="progress">
-					<div style="width: 60%;" class="progress-bar pb-dark" aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">100</span>
-					</div>
-				</div>
+				<h4 class="font-alt m-t-0 m-b-20">Recent Projects</h2>
 
-				<h6 class="progress-title font-alt">Approachability</h6>
-				<div class="progress">
-					<div style="width: 80%;" class="progress-bar pb-dark" aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">100</span>
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-6 col-xs-12 client-item">
+						<a href="http://pitchy.io" target="_blank">
+							<img src="/assets/images/logos/pitchy-logo.png" alt="Pitchy">
+						</a>
 					</div>
-				</div>
+					<!-- /CLIENT LOGO -->
 
-				<h6 class="progress-title font-alt">Life experience</h6>
-				<div class="progress">
-					<div style="width: 50%;" class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">50</span>
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-6 col-xs-12 client-item">
+						<a href="https://www.nationalfundingscheme.org" target="_blank">
+							<img src="assets/images/logos/donate-logo-black.png" alt="DONATE">
+						</a>
 					</div>
-				</div>
+					<!-- /CLIENT LOGO -->
 
-				<h6 class="progress-title font-alt">Graphic design skills</h6>
-				<div class="progress">
-					<div style="width: 90%;" class="progress-bar pb-dark" aria-valuenow="10" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">10</span>
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-6 col-xs-12 client-item">
+						<a href="http://www.doblotto.com" target="_blank">
+							<img src="assets/images/logos/doblotto-logo.png" alt="Doblotto">
+						</a>
 					</div>
-				</div>
+					<!-- /CLIENT LOGO -->
+
+					<!-- CLIENT LOGO -->
+					<div class="col-sm-6 col-xs-12 client-item">
+						<a href="http://www.nuffieldresearchplacements.org" target="_blank">
+							<img src="assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
+						</a>
+					</div>
+					<!-- /CLIENT LOGO -->
 
 			</div>
-			<!-- /SKILLS -->
 
 		</div>
 
@@ -78,13 +78,11 @@
 
 	<div class="container">
 
-		<!-- MODULE TITLE -->
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
 				<h2 class="module-title font-alt">Skills</h2>
 			</div>
 		</div>
-		<!-- /MODULE TITLE -->
 
 		<div class="row">
 
@@ -125,6 +123,13 @@
 									<li>Backbone</li>
 								</ul>
 							</li>
+							<li>Caching
+								<ul>
+									<li>Varnish</li>
+									<li>Redis</li>
+									<li>Memcache</li>
+								</ul>
+							</li>
 						</ul>
 
 					</div>
@@ -161,61 +166,33 @@
 
 		<div class="row">
 
-			<!-- ABOUT STUDIO  -->
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20">David Wright</h4>
-				<p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+				<h4 class="font-alt m-t-0 m-b-20">Github repositories</h4>
 
-				<p><a href="#team" class="section-scroll">Who We Are →</a></p>
+					<ul>
+						<li><a href="https://github.com/ritey/base-laravel-react" target="_blank">Laravel + ReactJS Base</a> - Latest Laravel project with ReactJS and webpack configured ready for a new project.</li>
+						<li><a href="https://github.com/ritey/website" target="_blank">This website</a> - Code base for this website, in Laravel using simple routes, and blade templates.</li>
+					</ul>
+
 
 			</div>
-			<!-- /ABOUT STUDIO  -->
 
-			<!-- WHAT WE DO -->
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20">Senior Developer</h4>
-				<p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.</p>
+				<h4 class="font-alt m-t-0 m-b-20">Scripts</h4>
 
-				<p><a href="#services" class="section-scroll">Our Services →</a></p>
+					<ul>
+						<li><a href="http://github.com/ritey/booter" target="_blank">Booter</a> - Simple script to setup a Linux server, useful for when Puppet isn't really required.</li>
+					</ul>
 
 			</div>
-			<!-- /WHAT WE DO -->
 
-			<!-- SKILLS -->
 			<div class="col-sm-4">
 
-				<h6 class="progress-title font-alt">Development</h6>
-				<div class="progress">
-					<div style="width: 60%;" class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">60</span>
-					</div>
-				</div>
-
-				<h6 class="progress-title font-alt">Branding</h6>
-				<div class="progress">
-					<div style="width: 80%;" class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">80</span>
-					</div>
-				</div>
-
-				<h6 class="progress-title font-alt">Marketing</h6>
-				<div class="progress">
-					<div style="width: 50%;" class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">50</span>
-					</div>
-				</div>
-
-				<h6 class="progress-title font-alt">Photography</h6>
-				<div class="progress">
-					<div style="width: 90%;" class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-						<span style="opacity: 1;" class="font-alt">90</span>
-					</div>
-				</div>
+				<h4 class="font-alt m-t-0 m-b-20"></h4>
 
 			</div>
-			<!-- /SKILLS -->
 
 		</div>
 
