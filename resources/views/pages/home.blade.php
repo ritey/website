@@ -1,5 +1,12 @@
 @extends('layouts.master')
 
+@section('metas')
+
+<title>David Wright - Laravel Developer London</title>
+<meta name="description" content="David Wright PHP Laravel developer in London. With over 10 years of web development experience and still plenty of passion for learning web technologies I'm currently pushing the limits with the Laravel framework, ReactJS and API's to build the best web applications and user experiences.">
+
+@endsection
+
 @section('content')
 
 <!-- HERO -->
@@ -26,7 +33,7 @@
 		<!-- MODULE TITLE -->
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<h2 class="module-title font-alt">London Based Laravel Web Developer</h2>
+				<h2 class="module-title font-alt">Laravel Developer London</h2>
 			</div>
 		</div>
 		<!-- /MODULE TITLE -->

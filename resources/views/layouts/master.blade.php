@@ -4,8 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-	<title>David Wright - London Based Laravel Web Developer</title>
-	<meta name="description" content="David Wright PHP Laravel developer in London, UK. With over 10 years of web development experience and still plenty of passion for learning web technologies I'm currently pushing the limits with the Laravel framework, ReactJS and API's to build the best web applications and user experiences.">
+
+    @yield('metas')
 
 	<!--
 
