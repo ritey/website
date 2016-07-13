@@ -55,6 +55,7 @@
 </head>
 <body>
 
+	<div id="totop"></div>
 	<!-- PRELOADER -->
 	<div style="display: none;" class="page-loader">
 		<div style="display: none;" class="loader">Loading...</div>
@@ -187,7 +188,7 @@
 
 	<!-- SCROLLTOP -->
 	<div style="display: block;" class="scroll-up">
-		<a href="#totop"><i class="fa fa-angle-double-up"></i></a>
+		<a href="#totop"><i class="fa fa-angle-double-up"><span class="hidden">-</span></i></a>
 	</div>
 
 	<script type="text/javascript">
