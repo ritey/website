@@ -31,7 +31,7 @@
 
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20">David Wright</h4>
+				<h3 class="font-alt m-t-0 m-b-20">David Wright</h3>
 
 				<p>Thanks for checking out my development abilities. I'll assume if you're reading this you might be interested in what I could offer you or your company.</p>
 
@@ -43,7 +43,7 @@
 
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20">Senior Developer</h4>
+				<h3 class="font-alt m-t-0 m-b-20">Senior Developer</h3>
 
 				<p>Over the years I've worked in various sized teams, on my own, and currently heading up a <strong>technical development</strong> team for a digital agency based in <strong>London</strong>. My work has typically been in the commercial space, however, I've also released some open source libraries on behalf of the company employing me and also on a personal level.</p>
 
@@ -53,7 +53,7 @@
 
 			<div class="col-sm-4">
 
-				<h4 class="font-alt m-t-0 m-b-20">Recent Projects</h2>
+				<h3 class="font-alt m-t-0 m-b-20">Recent Projects</h3>
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
