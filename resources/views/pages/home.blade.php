@@ -17,7 +17,7 @@
 		<div class="hero-text">
 
 			<h1 class="mh-line-size-1 font-alt m-b-50">David Wright</h1>
-			<h5 class="mh-line-size-4 font-alt">Founder &amp; web developer @ Coder Studios London</h5>
+			<h2 class="mh-line-size-4 font-alt">Founder &amp; web developer @ Coder Studios London</h2>
 
 		</div>
 	</div>
@@ -33,7 +33,7 @@
 		<!-- MODULE TITLE -->
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
-				<p class="module-title font-alt">Laravel Developer London</p>
+				<h3 class="module-title font-alt">Laravel Developer London</h3>
 				<h4>London based, Laravel PHP developer, full time backend developer.</h4>
 			</div>
 		</div>

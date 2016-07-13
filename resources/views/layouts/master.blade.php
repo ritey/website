@@ -125,9 +125,9 @@
 				<ul id="icons-navbar" class="nav navbar-nav navbar-right">
 					<li>
 						<a href="index.html#" id="toggle-menu" class="show-overlay" title="Menu">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
+							<span class="icon-bar">&nbsp;</span>
+							<span class="icon-bar">&nbsp;</span>
+							<span class="icon-bar">&nbsp;</span>
 						</a>
 					</li>
 				</ul>
