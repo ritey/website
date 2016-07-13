@@ -18,6 +18,15 @@
 
 	<div class="container">
 
+		<!-- MODULE TITLE -->
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h1 class="module-title font-alt">Freelance Laravel Developer London</h1>
+				<h2 class="module-title font-alt">PHP Developer</h2>
+			</div>
+		</div>
+		<!-- /MODULE TITLE -->
+
 		<div class="row">
 
 			<div class="col-sm-4">
