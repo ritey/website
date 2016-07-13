@@ -157,7 +157,7 @@
 									<li><a rel="nofollow" target="_blank" href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
 								</ul>
 							<li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a></li>
-							<li>Payment portal integration - <a rel="nofollow" target="_blank" ref="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
+							<li>Payment portal integration - <a rel="nofollow" target="_blank" href="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
 						</ul>
 
 					</div>
