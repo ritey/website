@@ -64,7 +64,7 @@
 	<!-- OVERLAY MENU -->
 	<div id="overlay-menu" class="overlay-menu">
 
-		<a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"></i></a>
+		<a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"><span class="hidden">-</span></i></a>
 
 		<div class="overlay-menu-inner">
 			<nav class="overlay-menu-nav">
@@ -134,7 +134,7 @@
 				<!-- /ICONS NAVBAR -->
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="/" title="Home">Home</a></li>
+					<li><a href="/" title="Visit the homepage">Home</a></li>
 					<li><a href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME</a></li>
 					<li><a href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">ADDRESSES</a></li>
 
