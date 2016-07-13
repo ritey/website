@@ -57,7 +57,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a rel="nofollow" target="_blank" href="http://pitchy.io" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://pitchy.io">
 							<img src="/assets/images/logos/pitchy-logo.png" alt="Pitchy">
 						</a>
 					</div>
@@ -65,7 +65,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org" target="_blank">
+						<a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">
 							<img src="assets/images/logos/donate-logo-black.png" alt="DONATE">
 						</a>
 					</div>
@@ -73,7 +73,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a rel="nofollow" target="_blank" href="http://www.doblotto.com" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://www.doblotto.com">
 							<img src="assets/images/logos/doblotto-logo.png" alt="Doblotto">
 						</a>
 					</div>
@@ -81,7 +81,7 @@
 
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
-						<a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org" target="_blank">
+						<a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org">
 							<img src="assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
 						</a>
 					</div>
@@ -202,8 +202,8 @@
 				<h4 class="font-alt m-t-0 m-b-20">Github repositories</h4>
 
 					<ul>
-						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/base-laravel-react" target="_blank">Laravel + ReactJS Base</a> - Latest Laravel project with ReactJS and webpack configured ready for a new project.</li>
-						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/website" target="_blank">This website</a> - Code base for this website, in Laravel using simple routes, and blade templates.</li>
+						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/base-laravel-react">Laravel + ReactJS Base</a> - Latest Laravel project with ReactJS and webpack configured ready for a new project.</li>
+						<li><a rel="nofollow" target="_blank" href="https://github.com/ritey/website">This website</a> - Code base for this website, in Laravel using simple routes, and blade templates.</li>
 					</ul>
 
 
@@ -214,7 +214,7 @@
 				<h4 class="font-alt m-t-0 m-b-20">Scripts</h4>
 
 				<ul>
-					<li><a rel="nofollow" target="_blank" href="http://github.com/ritey/booter" target="_blank">Booter</a> - Simple script to setup a Linux server, useful for when Puppet isn't really required.</li>
+					<li><a rel="nofollow" target="_blank" href="http://github.com/ritey/booter">Booter</a> - Simple script to setup a Linux server, useful for when Puppet isn't really required.</li>
 				</ul>
 
 			</div>
