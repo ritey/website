@@ -4,6 +4,9 @@
 
 <title>David Wright - London Based Laravel Web Developer</title>
 <meta name="description" content="David Wright PHP Laravel developer in London, UK. With over 10 years of web development experience and still plenty of passion for learning web technologies. Freelance Larvel Developer London.">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+
 
 @endsection
 
