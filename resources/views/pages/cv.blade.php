@@ -69,7 +69,7 @@
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
 						<a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">
-							<img src="assets/images/logos/donate-logo-black.png" alt="DONATE">
+							<img src="/assets/images/logos/donate-logo-black.png" alt="DONATE">
 						</a>
 					</div>
 					<!-- /CLIENT LOGO -->
@@ -77,7 +77,7 @@
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
 						<a rel="nofollow" target="_blank" href="http://www.doblotto.com">
-							<img src="assets/images/logos/doblotto-logo.png" alt="Doblotto">
+							<img src="/assets/images/logos/doblotto-logo.png" alt="Doblotto">
 						</a>
 					</div>
 					<!-- /CLIENT LOGO -->
@@ -85,7 +85,7 @@
 					<!-- CLIENT LOGO -->
 					<div class="col-sm-6 col-xs-12 client-item">
 						<a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org">
-							<img src="assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
+							<img src="/assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
 						</a>
 					</div>
 					<!-- /CLIENT LOGO -->
