@@ -137,6 +137,7 @@
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
 					<li><a href="/" title="Visit the homepage">Home</a></li>
+					<li><a href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE PHOTOS</a></li>
 					<li><a href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME</a></li>
 					<li><a href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">ADDRESSES</a></li>
 
