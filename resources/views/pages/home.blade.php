@@ -56,6 +56,10 @@
 					Utilising the best PHP practices developing with the <strong>Laravel framework</strong>, contributing to open source projects and releasing <a href="https://packagist.org/search/?q=ritey" target="_blank" rel="nofollow">open source packages</a> for other developers to use. Currently working on a national donation platform perfecting user experiences, scalability, security and developing API's.
 				</p>
 
+				<p><strong>Are you a Laravel developer looking for work?</strong></p>
+
+				<p>I often get asked by the clients I work with if I know any additional developers or occassionally I'll need additional support so if you're a Laravel developer drop me your CV dave@coderstudios.com.</p>
+
 				<p>Over ten years web development experience with: Laravel, PHP, MySQL, MariaDB, MSSQL	Debian, CentOS, Gluster, MariaDB,
 					BIG-V, ReactJS, ES6, Webpack, SASS, node.js, Git, Jenkins, CSS, HTML5, API, Ajax, Oauth, Memcache and Redis.
 				</p>
