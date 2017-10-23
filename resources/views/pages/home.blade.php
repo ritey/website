@@ -56,6 +56,14 @@
 					Utilising the best PHP practices developing with the <strong>Laravel framework</strong>, contributing to open source projects and releasing <a href="https://packagist.org/search/?q=ritey" target="_blank" rel="nofollow">open source packages</a> for other developers to use. Currently working on a national donation platform perfecting user experiences, scalability, security and developing API's.
 				</p>
 
+				<p><strong>Current Laravel Projects</strong></p>
+
+				<ul>
+					<li>Laravel 5.5 iPhone Photos project, free iPhone photo sharing and display site coded in Laravel with auto deployment and testing. <br /><a href="https://iphone-photos.com" target="_blank">Visit iPhone-Photos.com</a></li>
+					<li>Laravel PHP doblotto project, free cash giveaway site randomly choosing a members DOB each day. Developed in Laravel and hosted on AWS. <br /><a href="http://doblotto.com" target="_blank">Visit doblotto.com</a></li>
+					<li>Laravel package project CSCMS, a starter composer package for a basic Laravel content management system. Currently in early development.  <br /><a href="https://github.com/coderstudios/cscms" target="_blank">View the Github repo</a></li>
+				</ul>
+
 				<p><strong>Are you a Laravel developer looking for work?</strong></p>
 
 				<p>I often get asked by the clients I work with if I know any additional developers or occassionally I'll need additional support so if you're a Laravel developer drop me your CV dave@coderstudios.com.</p>
