@@ -223,11 +223,11 @@
 
             <h4>Experiences</h4>
 
-            <p>I am a London-based PHP developer with over 10 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
+            <p>I am a London-based PHP developer with over 12 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
 
-            <p>Currently employed as a <strong>PHP</strong> developer and Head of Technical Development at <strong>Panlogic Ltd</strong> in Richmond, where I honed my PHP knowledge to build extendible and maintainable object orientated code within an <strong>MVC</strong> environment using the <strong>Laravel framework</strong>. I'm a quick learner, able to pick up new concepts and ideas quickly and use them effectively. Coupled with my effective communication skills, this ability allows me to succeed in an agile development environment.</p>
+            <p>Currently developing for my own company Coder Studios where I'm honing my <strong>PHP</strong> and <strong>SQL</strong> knowledge to build extendible and maintainable object orientated code within an <strong>MVC</strong> environment using the <strong>Laravel framework</strong>. I'm a fast learner, able to pick up new concepts and ideas quickly and use them effectively. Coupled with my effective communication skills, this ability allows me to succeed in an agile development environment.</p>
 
-            <p>I hope to continue building my skills, expanding them to take in a wider scope of environments and languages, and to develop my managerial skills so I can effectively manage a large development team with multiple simultaneous projects.</p>
+            <p>I hope to continue building my skills, expanding them to take in a wider scope of environments and languages, and to develop my managerial skills so I can effectively manage a large development team to help support the growing projects I've started at Coder Studios and run the multiple projects simultaneously.</p>
 
         </div>
 
