@@ -10,6 +10,30 @@
 
 @import "node_modules/font-awesome/scss/font-awesome";
 
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  z-index: 999;
+}
+
+.scroll-up a {
+  background: #fff;
+  display: block;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  color: #000;
+  opacity: .6;
+  border-radius: 2px;
+}
+
 .hero {
 
 }
@@ -40,4 +64,10 @@
 
 .client-item {
   text-align: center;
+}
+
+.breakout {
+  width:100vw;
+  position:relative;
+  left:calc(-1 * (100vw - 100%) / 2);
 }

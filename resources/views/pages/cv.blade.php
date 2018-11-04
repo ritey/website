@@ -94,95 +94,98 @@
 
 </div>
 
-<div class="container">
+<div class="breakout bg-light p-4">
+    
+    <div class="container">
 
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <h3>Skills</h3>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h3>Skills</h3>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
+        <div class="row">
 
-        <div class="col-sm-12">
+            <div class="col-sm-12">
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-sm-12 col-md-4 offset-md-3">
+                    <div class="col-sm-12 col-md-4 offset-md-3">
 
-                    <h5 class="font-alt">Technologies</h5>
-                    <ul>
-                        <li><a rel="nofollow" target="_blank" href="http://www.php.net">PHP5+ and 7 Development</a>
-                            <ul>
-                                <li>Laravel Framework</li>
-                                <li>Symfony Framework</li>
-                            </ul>
-                        </li>
-                        <li>Database development
-                            <ul>
-                                <li><a rel="nofollow" target="_blank" href="http://www.mysql.com/">MySQL</a> / <a rel="nofollow" target="_blank" href="https://mariadb.org/">MariaDB</a>
-                                    <ul>
-                                        <li>HAProxy balancing</li>
-                                        <li>Clustering</li>
-                                    </ul>
-                                </li>
-                                <li>MSSQL
-                                    <ul>
-                                        <li>Stored Procedures</li>
-                                        <li>Replication</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>Javascript
-                            <ul>
-                                <li>ReactJS</li>
-                                <li>JQuery</li>
-                                <li>Backbone</li>
-                            </ul>
-                        </li>
-                        <li>Caching
-                            <ul>
-                                <li>Varnish</li>
-                                <li>Redis</li>
-                                <li>Memcache</li>
-                            </ul>
-                        </li>
-                        <li>Testing
-                            <ul>
-                                <li>Unit testing using <a rel="nofollow" target="_blank" href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
-                                <li><a rel="nofollow" target="_blank" href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
-                            </ul>
-                        <li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a></li>
-                        <li>Payment portal integration - <a rel="nofollow" target="_blank" href="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
-                    </ul>
+                        <h5 class="font-alt">Technologies</h5>
+                        <ul>
+                            <li><a rel="nofollow" target="_blank" href="http://www.php.net">PHP5+ and 7 Development</a>
+                                <ul>
+                                    <li>Laravel Framework</li>
+                                    <li>Symfony Framework</li>
+                                </ul>
+                            </li>
+                            <li>Database development
+                                <ul>
+                                    <li><a rel="nofollow" target="_blank" href="http://www.mysql.com/">MySQL</a> / <a rel="nofollow" target="_blank" href="https://mariadb.org/">MariaDB</a>
+                                        <ul>
+                                            <li>HAProxy balancing</li>
+                                            <li>Clustering</li>
+                                        </ul>
+                                    </li>
+                                    <li>MSSQL
+                                        <ul>
+                                            <li>Stored Procedures</li>
+                                            <li>Replication</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Javascript
+                                <ul>
+                                    <li>ReactJS</li>
+                                    <li>JQuery</li>
+                                    <li>Backbone</li>
+                                </ul>
+                            </li>
+                            <li>Caching
+                                <ul>
+                                    <li>Varnish</li>
+                                    <li>Redis</li>
+                                    <li>Memcache</li>
+                                </ul>
+                            </li>
+                            <li>Testing
+                                <ul>
+                                    <li>Unit testing using <a rel="nofollow" target="_blank" href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
+                                    <li><a rel="nofollow" target="_blank" href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
+                                </ul>
+                            <li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a></li>
+                            <li>Payment portal integration - <a rel="nofollow" target="_blank" href="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
+                        </ul>
 
-                </div>
+                    </div>
 
-                <div class="col-sm-12 col-md-4">
-                    <h5 class="font-alt">Personal</h5>
-                    <ul>
-                        <li>Systems analysis and engineering</li>
-                        <li>Database design and development</li>
-                        <li>Web accessibility &amp; DDA compliance standards
-                            <ul>
-                                <li>Web content accessibility guidelines</li>
-                                <li>Web standards</li>
-                            </ul>
-                        </li>
-                        <li>Knowledge of <a rel="nofollow" target="_blank" href="https://www.pcisecuritystandards.org/">PCI</a> procedures and methods</li>
-                        <li>Effective communicator</li>
-                        <li>Reliable</li>
-                        <li>Leader</li>
-                        <li>Team player</li>
-                    </ul>
+                    <div class="col-sm-12 col-md-4">
+                        <h5 class="font-alt">Personal</h5>
+                        <ul>
+                            <li>Systems analysis and engineering</li>
+                            <li>Database design and development</li>
+                            <li>Web accessibility &amp; DDA compliance standards
+                                <ul>
+                                    <li>Web content accessibility guidelines</li>
+                                    <li>Web standards</li>
+                                </ul>
+                            </li>
+                            <li>Knowledge of <a rel="nofollow" target="_blank" href="https://www.pcisecuritystandards.org/">PCI</a> procedures and methods</li>
+                            <li>Effective communicator</li>
+                            <li>Reliable</li>
+                            <li>Leader</li>
+                            <li>Team player</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container mt-2">
+<div class="container mt-5 mb-5">
     <div class="row">
         <div class="col-sm-12 col-md-4">
             <h4>Github repositories</h4>
@@ -215,52 +218,55 @@
     </div>
 </div>
 
-<div class="container">
+<div class="breakout bg-light p-4">
 
-    <div class="row">
+    <div class="container">
 
-        <div class="col-sm-12">
+        <div class="row">
 
-            <h4>Experiences</h4>
+            <div class="col-sm-12">
 
-            <p>I am a London-based PHP developer with over 12 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
+                <h4>Experiences</h4>
 
-            <p>Currently developing for my own company Coder Studios where I'm honing my <strong>PHP</strong> and <strong>SQL</strong> knowledge to build extendible and maintainable object orientated code within an <strong>MVC</strong> environment using the <strong>Laravel framework</strong>. I'm a fast learner, able to pick up new concepts and ideas quickly and use them effectively. Coupled with my effective communication skills, this ability allows me to succeed in an agile development environment.</p>
+                <p>I am a London-based PHP developer with over 12 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
 
-            <p>I hope to continue building my skills, expanding them to take in a wider scope of environments and languages, and to develop my managerial skills so I can effectively manage a large development team to help support the growing projects I've started at Coder Studios and run the multiple projects simultaneously.</p>
+                <p>Currently developing for my own company Coder Studios where I'm honing my <strong>PHP</strong> and <strong>SQL</strong> knowledge to build extendible and maintainable object orientated code within an <strong>MVC</strong> environment using the <strong>Laravel framework</strong>. I'm a fast learner, able to pick up new concepts and ideas quickly and use them effectively. Coupled with my effective communication skills, this ability allows me to succeed in an agile development environment.</p>
+
+                <p>I hope to continue building my skills, expanding them to take in a wider scope of environments and languages, and to develop my managerial skills so I can effectively manage a large development team to help support the growing projects I've started at Coder Studios and run the multiple projects simultaneously.</p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6">
+
+                <h4>Some of the sites I've worked on:</h4>
+                <ul>
+                    <li><a target="_blank" href="http://www.doblotto.com">Doblotto</a></li>
+                    <li><a target="_blank" href="https://pitchy.io">Pitchy.io</a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">National Funding Scheme</a></li>
+                    <li><a rel="nofollow" target="_blank" href="http://www.rnib.org">RNIB</a></li>
+                    <li><a rel="nofollow" target="_blank" href="http://www.itf-oecd.org">ITF</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <ul class="mt-4">
+                    <li><a rel="nofollow" target="_blank" href="http://classifieds.thebikeshed.cc">BikeShed Classifieds</a></li>
+                    <li><a rel="nofollow" target="_blank" href="http://www.panlogic.co.uk">Panlogic</a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.triphistoric.com/">Triphistoric</a></li>
+                </ul>
+            </div>
 
         </div>
 
     </div>
-
-    <div class="row">
-
-        <div class="col-sm-12 col-md-6">
-
-            <h4>Some of the sites I've worked on:</h4>
-            <ul>
-                <li><a target="_blank" href="http://www.doblotto.com">Doblotto</a></li>
-                <li><a target="_blank" href="https://pitchy.io">Pitchy.io</a></li>
-                <li><a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">National Funding Scheme</a></li>
-                <li><a rel="nofollow" target="_blank" href="http://www.rnib.org">RNIB</a></li>
-                <li><a rel="nofollow" target="_blank" href="http://www.itf-oecd.org">ITF</a></li>
-            </ul>
-
-        </div>
-
-        <div class="col-sm-12 col-md-6">
-            <ul class="mt-4">
-                <li><a rel="nofollow" target="_blank" href="http://classifieds.thebikeshed.cc">BikeShed Classifieds</a></li>
-                <li><a rel="nofollow" target="_blank" href="http://www.panlogic.co.uk">Panlogic</a></li>
-                <li><a rel="nofollow" target="_blank" href="https://www.triphistoric.com/">Triphistoric</a></li>
-            </ul>
-        </div>
-
-    </div>
-
 </div>
 
-<div class="container">
+<div class="container mt-5 mb-5">
 
     <div class="row">
 

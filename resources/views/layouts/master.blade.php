@@ -84,7 +84,7 @@
     @yield('content')
 
     <!-- FOOTER -->
-    <footer class="module bg-light">
+    <footer class="pt-5 pb-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -106,7 +106,7 @@
 
 	<!-- SCROLLTOP -->
 	<div style="display: block;" class="scroll-up">
-		<a href="#totop"><i class="fa fa-angle-double-up"><span class="hidden">-</span></i></a>
+		<a href="#totop"><i class="fa fa-angle-double-up"><span hidden>-</span></i></a>
 	</div>
 
 	<script src="{{ mix('js/app.js') }}"></script>
