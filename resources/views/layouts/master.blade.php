@@ -1,9 +1,16 @@
-<!doctype html>
-<!--Conditionals for IE8-9 Support-->
-<!--[if IE]><html lang="en" class="ie"><![endif]-->
-<html lang="en">
-<head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta property="og:url" content="{{ url()->to('/') }}">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Ritey.com">
+        <meta name="twitter:site" content="@ritey">
+        <meta name="twitter:creator" content="@ritey">
 
     @yield('metas')
 
@@ -26,8 +33,6 @@
 	-->
 
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="Author" content="David Wright">
 	<meta name="google-site-verification" content="QURomiXUt2oJSRATs9oVG3jxN7BIDTOmGI2TMJdZjq0" />
 	<meta name="verify-v1" content="z+lUQDHHTdBKwH6f7hkGCRCjZt8tOjBKZURr17QxTBc=">
@@ -38,164 +43,75 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon-72.jpg">
 	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon-114.jpg">
 
-	<link href="{{ elixir('css/app.css') }}" rel="stylesheet">
-
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-	<script type="text/javascript" src="{{ elixir('js/app.js') }}"></script>
+    <link rel="stylesheet" href="{{ mix("css/app.css") }}">
 
 	@yield('head')
 
 </head>
-<body>
+<body id="totop" itemscope itemtype="https://schema.org/WebPage">
 
-	<div id="totop"></div>
-	<!-- PRELOADER -->
-	<div style="display: none;" class="page-loader">
-		<div style="display: none;" class="loader">Loading...</div>
-	</div>
-	<!-- /PRELOADER -->
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="/"><img src="/assets/images/logo_ritey.jpg" alt="Ritey" width="95"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/" title="Visit the homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://coderstudios.com" title="London Laravel Coder Studios">Coder Studios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME Checker</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">UK Address Lookup</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /NAVIGATION -->
 
-	<!-- OVERLAY MENU -->
-	<div id="overlay-menu" class="overlay-menu">
+    @yield('content')
 
-		<a href="#" id="overlay-menu-hide" class="navigation-hide"><i class="ion-close-round"><span class="hidden">-</span></i></a>
-
-		<div class="overlay-menu-inner">
-			<nav class="overlay-menu-nav">
-
-				<ul id="nav">
-
-					<li><a href="/">Home</a></li>
-
-					<li><a href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE PHOTOS</a></li>
-					<li><a href="https://electric-autos.co.uk" target="_blank" title="Electric Autos">Electric Autos</a></li>
-					<li><a href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME</a></li>
-
-					<li><a href="http://addresses.ritey.com" target="_blank" title="Addresses - UK Postcode Checker">ADDRESSES</a></li>
-
-					<li><a href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a></li>
-
-				</ul>
-
-			</nav>
-		</div>
-
-		<div class="overlay-navigation-footer">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-12 text-center">
-
-						<p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="#">ritey.com</a>, All Rights Reserved.</p>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</div>
-	<!-- /OVERLAY MENU -->
-
-	<!-- WRAPPER -->
-	<div class="wrapper">
-
-		<!-- NAVIGATION -->
-		<nav class="navbar navbar-custom navbar-light navbar-fixed-top">
-
-			<div class="container">
-
-				<div class="navbar-header">
-					<!-- YOU LOGO HERE -->
-					<a class="navbar-brand" href="/">
-						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="/assets/images/logo_ritey.jpg" alt="Ritey" width="95">
-					</a>
-				</div>
-
-				<!-- ICONS NAVBAR -->
-				<ul id="icons-navbar" class="nav navbar-nav navbar-right">
-					<li>
-						<a href="index.html#" id="toggle-menu" class="show-overlay" title="Menu">
-							<span class="icon-bar"><span class="hidden">-</span></span>
-							<span class="icon-bar"><span class="hidden">-</span></span>
-							<span class="icon-bar"><span class="hidden">-</span></span>
-						</a>
-					</li>
-				</ul>
-				<!-- /ICONS NAVBAR -->
-
-				<ul class="extra-navbar nav navbar-nav navbar-right">
-					<li><a href="/" title="Visit the homepage">Home</a></li>
-					<li><a href="https://electric-autos.co.uk" target="_blank" title="Electric Autos">Electric Autos</a></li>
-					<li><a href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE PHOTOS</a></li>
-					<li><a href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME</a></li>
-					<li><a href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">ADDRESSES</a></li>
-
-					<li><a href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a></li>
-				</ul>
-
-			</div>
-
-		</nav>
-		<!-- /NAVIGATION -->
-
-		@yield('content')
-
-		<!-- FOOTER -->
-		<footer class="module bg-light">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-12">
-
-						<ul class="social-text-links font-alt text-center m-b-20">
-							<li><a href="http://github.com/ritey" target="_blank" title="Follow @ritey on Github David Wright PHP Laravel developer in Richmond Surrey London">Github</a></li>
-							<li><a href="http://twitter.com/ritey" target="_blank" title="Follow @ritey on Twitter David Wright PHP Laravel developer in Richmond Surrey London">Twitter</a></li>
-						</ul>
-
-					</div>
-
-				</div>
-
-				<div class="row">
-
-					<div class="col-sm-12">
-
-						<p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
-						<p class="copyright text-center m-b-0">I live in Surrey, work and develop in Richmond and London areas.</p>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</footer>
-		<!-- /FOOTER -->
-
-	</div>
-	<!-- /WRAPPER -->
+    <!-- FOOTER -->
+    <footer class="module bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-inline list-unstyled text-center">
+                        <li class="list-inline-item"><a href="http://github.com/ritey" target="_blank" title="Follow @ritey on Github David Wright PHP Laravel developer in Richmond Surrey London">Github</a></li>
+                        <li class="list-inline-item"><a href="http://twitter.com/ritey" target="_blank" title="Follow @ritey on Twitter David Wright PHP Laravel developer in Richmond Surrey London">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
+                    <p class="copyright text-center m-b-0">I live in Surrey, work and develop in Richmond and London areas.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
 
 	<!-- SCROLLTOP -->
 	<div style="display: block;" class="scroll-up">
 		<a href="#totop"><i class="fa fa-angle-double-up"><span class="hidden">-</span></i></a>
 	</div>
 
-	<script type="text/javascript">
+	<script src="{{ mix('js/app.js') }}"></script>
+
+	<script>
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-418381-12']);
 	  _gaq.push(['_trackPageview']);
@@ -207,7 +123,7 @@
 	  })();
 	</script>
 	<!-- Start of Woopra Code -->
-	<script type="text/javascript">
+	<script>
 	var woo_settings = {idle_timeout:'300000', domain:'ritey.com'};
 	(function(){
 	var wsc = document.createElement('script');

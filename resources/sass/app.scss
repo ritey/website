@@ -1,0 +1,43 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "node_modules/font-awesome/scss/font-awesome";
+
+.hero {
+
+}
+
+.hero h1 {
+  letter-spacing: 1em;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page {
+
+}
+
+.page h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.circle-image {
+  border-radius:50%;
+}
+
+.client-item {
+  text-align: center;
+}
