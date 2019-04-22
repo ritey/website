@@ -57,7 +57,7 @@
                 <!-- CLIENT LOGO -->
                 <div class="col-sm-12 col-md-6 client-item">
                     <a target="_blank" href="https://torqueprizes.com">
-                        <img src="https://torqueprizes.com/images/logo.png" alt="Torque Prizes">
+                        <img src="https://torqueprizes.com/images/logo.png" width="90" alt="Torque Prizes">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
