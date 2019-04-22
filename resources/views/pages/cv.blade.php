@@ -56,8 +56,8 @@
 
                 <!-- CLIENT LOGO -->
                 <div class="col-sm-12 col-md-6 client-item">
-                    <a rel="nofollow" target="_blank" href="http://pitchy.io">
-                        <img src="/assets/images/logos/pitchy-logo.png" alt="Pitchy">
+                    <a target="_blank" href="https://torqueprizes.com">
+                        <img src="https://torqueprizes.com/images/logo.png" alt="Torque Prizes">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
@@ -72,7 +72,7 @@
 
                 <!-- CLIENT LOGO -->
                 <div class="col-sm-6 col-xs-12 client-item">
-                    <a rel="nofollow" target="_blank" href="http://www.doblotto.com">
+                    <a target="_blank" href="https://www.doblotto.com">
                         <img src="/assets/images/logos/doblotto-logo.png" alt="Doblotto">
                     </a>
                 </div>
@@ -244,8 +244,8 @@
 
                 <h4>Some of the sites I've worked on:</h4>
                 <ul>
-                    <li><a target="_blank" href="http://www.doblotto.com">Doblotto</a></li>
-                    <li><a target="_blank" href="https://pitchy.io">Pitchy.io</a></li>
+                    <li><a target="_blank" href="https://www.doblotto.com">Doblotto</a></li>
+                    <li><a target="_blank" href="https://torqueprizes.com">Torque Prizes</a></li>
                     <li><a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">National Funding Scheme</a></li>
                     <li><a rel="nofollow" target="_blank" href="http://www.rnib.org">RNIB</a></li>
                     <li><a rel="nofollow" target="_blank" href="http://www.itf-oecd.org">ITF</a></li>
