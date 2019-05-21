@@ -73,7 +73,7 @@
                 <!-- CLIENT LOGO -->
                 <div class="col-sm-6 col-xs-12 client-item">
                     <a target="_blank" href="https://uklaraveljobs.com">
-                        <img src="https://uklaraveljobs.com/logo.jpg" alt="UK Laravel Jobs">
+                        <img src="https://uklaraveljobs.com/images/logo.jpg" width="90" alt="UK Laravel Jobs">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
