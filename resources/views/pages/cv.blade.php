@@ -2,7 +2,7 @@
 
 @section('metas')
 <title>David Wright - London Based Laravel Web Developer</title>
-<meta name="description" content="David Wright PHP Laravel developer in London, UK. With over 10 years of web development experience and still plenty of passion for learning web technologies. Freelance Larvel Developer London.">
+<meta name="description" content="David Wright PHP Laravel developer in London, UK. With over 15 years of web development experience and still plenty of passion for learning web technologies. Freelance Laravel Developer London.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 @endsection
@@ -32,7 +32,7 @@
 
             <p>Thanks for checking out my development abilities. I'll assume if you're reading this you might be interested in what I could offer you or your company.</p>
 
-            <p>I've developed websites and web applications since completing university over 12 years ago, in a wide range of areas spanning educational applications for students, to a national donation platform.</p>
+            <p>I've developed websites and web applications since completing university in 2004, in a wide range of areas spanning educational applications for students, to a national donation platform.</p>
 
             <p>Typical of the <strong>modern developer</strong>, I've experienced many different languages and development methodologies which has assisted in a wide range of understanding and expertise, however, my primary focus is as a <strong>PHP developer</strong> typically using the <strong>Laravel</strong> framework.</p>
 
@@ -42,7 +42,7 @@
 
             <h3>Senior Developer</h3>
 
-            <p>Over the years I've worked in various sized teams, on my own, and currently heading up a <strong>technical development</strong> team for a digital agency based in <strong>London</strong>. My work has typically been in the commercial space, however, I've also released some open source libraries on behalf of the company employing me and also on a personal level.</p>
+            <p>Over the years I've worked in various sized teams, heading up a <strong>technical development</strong> team for a digital agency based in <strong>London</strong> and more recently on my own as a build my own SaSS product. My work has typically been in the commercial space, however, I've also released some open source libraries on behalf of the company employing me and on a personal level. More recently I've worked with a number of Charities including London's Air Ambulance and National Funding Scheme.</p>
 
             <p>I have a keen interest in motorsport, entrepreneurial activities and the evolving world of technology and I have complete respect for web designers <em>(I'm not a designer and the themes/designs in the projects I've worked on are not my work).</em></p>
 
@@ -72,8 +72,8 @@
 
                 <!-- CLIENT LOGO -->
                 <div class="col-sm-6 col-xs-12 client-item">
-                    <a target="_blank" href="https://www.doblotto.com">
-                        <img src="/assets/images/logos/doblotto-logo.png" alt="Doblotto">
+                    <a target="_blank" href="https://uklaraveljobs.com">
+                        <img src="https://uklaraveljobs.com/logo.jpg" alt="UK Laravel Jobs">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
@@ -228,7 +228,7 @@
 
                 <h4>Experiences</h4>
 
-                <p>I am a London-based PHP developer with over 12 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
+                <p>I am a London-based PHP developer with over 15 years’ commercial PHP experience in bespoke, <strong>eCommerce</strong> and <strong>CMS</strong> websites like OpenCart, Wordpress, Drupal and to a lesser extent Joomla. I have a keen interest in data integration (using <strong>APIs</strong> and <strong>WebServices</strong>), and production of well formatted, readable and, maintainable code and dynamic, effective websites (using open standards, including <strong>CSS3</strong> and <strong>HTML5</strong>).</p>
 
                 <p>Currently developing for my own company Coder Studios where I'm honing my <strong>PHP</strong> and <strong>SQL</strong> knowledge to build extendible and maintainable object orientated code within an <strong>MVC</strong> environment using the <strong>Laravel framework</strong>. I'm a fast learner, able to pick up new concepts and ideas quickly and use them effectively. Coupled with my effective communication skills, this ability allows me to succeed in an agile development environment.</p>
 
@@ -239,16 +239,13 @@
         </div>
 
         <div class="row">
-
             <div class="col-sm-12 col-md-6">
-
                 <h4>Some of the sites I've worked on:</h4>
                 <ul>
-                    <li><a target="_blank" href="https://www.doblotto.com">Doblotto</a></li>
-                    <li><a target="_blank" href="https://torqueprizes.com">Torque Prizes</a></li>
+                    <li><a target="_blank" href="https://uklaraveljobs.com">UK Laravel Jobs</a></li>
                     <li><a rel="nofollow" target="_blank" href="https://www.nationalfundingscheme.org">National Funding Scheme</a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://www.rnib.org">RNIB</a></li>
-                    <li><a rel="nofollow" target="_blank" href="http://www.itf-oecd.org">ITF</a></li>
+                    <li><a rel="nofollow" target="_blank" href="http://thebikeshed.cc">The BikeShed</a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://merchantsquare.co.uk">Merchants Square</a></li>
                 </ul>
 
             </div>
@@ -260,26 +257,16 @@
                     <li><a rel="nofollow" target="_blank" href="https://www.triphistoric.com/">Triphistoric</a></li>
                 </ul>
             </div>
-
         </div>
-
     </div>
 </div>
 
 <div class="container mt-5 mb-5">
-
     <div class="row">
-
         <div class="col-sm-12">
-
             <h4>Additional details</h4>
-
             <p>If you wish to receive a PDF of my CV please email dave { at } ritey.com. Alternatively you can <a rel="nofollow" target="_blank" href="http://twitter.com/ritey">tweet me</a>.</p>
-
         </div>
-
     </div>
-
 </div>
-
 @endsection

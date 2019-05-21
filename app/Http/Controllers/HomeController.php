@@ -62,6 +62,8 @@ class HomeController extends BaseController {
 			$sitemap->add(url('/'), '2016-07-04T12:00:00+02:00','1.0','monthly');
 			$sitemap->add(url('/hire-me'), '2016-07-04T12:00:00+02:00','1.0','monthly');
 			$sitemap->add(url('/freelance-php-developer'), '2016-07-04T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/london-laravel-developer'), '2019-05-21T12:00:00+02:00','1.0','monthly');
+			$sitemap->add(url('/northampton-laravel-developer'), '2019-05-21T12:00:00+02:00','1.0','monthly');
 		}
 
 		return $sitemap->render('xml');
