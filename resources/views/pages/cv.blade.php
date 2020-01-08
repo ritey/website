@@ -55,9 +55,9 @@
             <div class="row">
 
                 <!-- CLIENT LOGO -->
-                <div class="col-sm-12 col-md-6 client-item">
-                    <a target="_blank" href="https://torqueprizes.com">
-                        <img src="https://torqueprizes.com/images/logo.png" width="90" alt="Torque Prizes">
+                <div class="col-sm-6 col-xs-12 client-item">
+                    <a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org">
+                        <img src="/assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
@@ -79,9 +79,9 @@
                 <!-- /CLIENT LOGO -->
 
                 <!-- CLIENT LOGO -->
-                <div class="col-sm-6 col-xs-12 client-item">
-                    <a rel="nofollow" target="_blank" href="http://www.nuffieldresearchplacements.org">
-                        <img src="/assets/images/logos/nuffield-logo.png" alt="Nuffield Research Placements">
+                <div class="col-sm-12 col-md-6 client-item">
+                    <a target="_blank" href="https://idea.org.uk">
+                        <img src="https://idea.org.uk/img/about/Wreath-Bronze.svg" width="90" alt="iDEA">
                     </a>
                 </div>
                 <!-- /CLIENT LOGO -->
@@ -118,12 +118,15 @@
                                 <ul>
                                     <li>Laravel Framework</li>
                                     <li>Symfony Framework</li>
+                                    <li>CakePHP</li>
                                 </ul>
                             </li>
                             <li>Database development
                                 <ul>
                                     <li><a rel="nofollow" target="_blank" href="http://www.mysql.com/">MySQL</a> / <a rel="nofollow" target="_blank" href="https://mariadb.org/">MariaDB</a>
                                         <ul>
+                                            <li>AWS RDS</li>
+                                            <li>Digital Ocean Managed Databases</li>
                                             <li>HAProxy balancing</li>
                                             <li>Clustering</li>
                                         </ul>
@@ -138,6 +141,7 @@
                             </li>
                             <li>Javascript
                                 <ul>
+                                    <li>Vue.js</li>
                                     <li>ReactJS</li>
                                     <li>JQuery</li>
                                     <li>Backbone</li>
@@ -152,10 +156,10 @@
                             </li>
                             <li>Testing
                                 <ul>
-                                    <li>Unit testing using <a rel="nofollow" target="_blank" href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
+                                    <li>Feature/Unit testing using <a rel="nofollow" target="_blank" href="https://github.com/sebastianbergmann/phpunit/">PHP Unit</a></li>
                                     <li><a rel="nofollow" target="_blank" href="http://www.seleniumhq.org/">Selenium</a> scripting</li>
                                 </ul>
-                            <li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a></li>
+                            <li>Continuous Integration  <a rel="nofollow" target="_blank" href="http://jenkins-ci.org/">Jenkins</a> and <a rel="nofollow" target="_blank" href="https://travis-ci.org/">Travis</a> and Gitlab CI</li>
                             <li>Payment portal integration - <a rel="nofollow" target="_blank" href="http://www.sagepay.com/">SagePay</a>, <a rel="nofollow" target="_blank" href="http://www.paypoint.co.uk/">PayPoint</a>, <a rel="nofollow" target="_blank" href="https://stripe.com/">Stripe</a>, <a rel="nofollow" target="_blank" href="http://www.paypal.co.uk/uk">PayPal</a> and <a rel="nofollow" target="_blank" href="http://checkout.google.com/sell/">Google Checkout</a></li>
                         </ul>
 
@@ -252,6 +256,7 @@
 
             <div class="col-sm-12 col-md-6">
                 <ul class="mt-4">
+                    <li><a rel="nofollow" target="_blank" href="https://idea.org.uk">iDEA</a></li>
                     <li><a rel="nofollow" target="_blank" href="http://classifieds.thebikeshed.cc">BikeShed Classifieds</a></li>
                     <li><a rel="nofollow" target="_blank" href="http://www.panlogic.co.uk">Panlogic</a></li>
                     <li><a rel="nofollow" target="_blank" href="https://www.triphistoric.com/">Triphistoric</a></li>

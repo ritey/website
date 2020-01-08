@@ -48,9 +48,7 @@
             <p><strong>Current Laravel Projects</strong></p>
 
             <ul>
-                <li>Laravel 5.8 Golfing Pros project, golf course directory built in Laravel 5.7 focussing on SEO. <br /><a href="https://golfing-pros.com" target="_blank">Visit Golfing Pros</a></li>
-                <li>Laravel 5.8 Torque Prizes project, enter competitions to win automotive related prizes at a fraction of the cost. <br /><a href="https://torqueprizes.com" target="_blank">Visit Torque Prizes.com</a> and why not enter!</li>
-                <li>Laravel PHP doblotto project, free cash giveaway site randomly choosing a members DOB each day. Developed in Laravel and hosted on AWS. <br /><a href="http://doblotto.com" target="_blank">Visit doblotto.com</a></li>
+                <li>Lead developer building <a href="https://idea.org.uk" target="_blank">iDEA.org.uk</a></li>
                 <li>Laravel package project CSCMS, a starter composer package for a basic Laravel content management system. Currently in early development.  <br /><a href="https://github.com/coderstudios/cscms" target="_blank">View the Github repo</a></li>
             </ul>
 
