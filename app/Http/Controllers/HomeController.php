@@ -32,7 +32,7 @@ class HomeController extends Controller
             'scope' => 'openid',
             'state' => $state,
         ];
-        $authUrl = 'https://dev.idea.org.uk/oauth/authorize?'.
+        $authUrl = 'https://idea:gold@dev.idea.org.uk/oauth/authorize?'.
         http_build_query($params);
         header("Location: {$authUrl}"); // Redirect to iDEA to authorize
 
@@ -59,7 +59,7 @@ class HomeController extends Controller
                 'form_params' => [
                     'client_id' => 'y2sI8a0W3CZb5mQ8gKFIOz3VvXiVZR5C',
                     'client_secret' => 'Lwn8fVuT2OCao49GbLDan4D05fc3fmQeCd7KEx4y',
-                    'redirect_uri' => 'https://contoso.idea.org.uk/auth/callback',
+                    'redirect_uri' => 'https://ritey.com/badge/auth/callback',
                     'code' => $code,
                     'grant_type' => 'authorization_code',
                 ],
