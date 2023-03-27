@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +22,3 @@ Route::get('/london-laravel-developer', ['as' => 'london-laravel-developer', 'us
 Route::get('/northampton-laravel-developer', ['as' => 'northampton-laravel-developer', 'uses' => 'HomeController@cv']);
 
 Route::get('/sitemap.xml', ['as' => 'sitemap', 'uses' => 'HomeController@sitemap']);
-
-Route::get('/idea-badge', ['as' => 'idea-badge', 'uses' => 'HomeController@badge']);
-Route::get('/badge/auth/callback', ['as' => 'idea-badge-callback', 'uses' => 'HomeController@badgeCallback']);
