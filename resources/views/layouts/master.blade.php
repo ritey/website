@@ -19,7 +19,7 @@
 		############################################### HELLO ######################################################
 
 		Hi, thanks for checking the source. I've used a premium bootstrap template that I've implemented into
-		Laravel blade templates using SASS, Gulp, Laravel's elixir and various Javascript plugins.
+		Laravel blade templates using TailwindCSS, Vite and various Javascript plugins.
 
 		If you want to see more examples of my coding abilities either contact me, Twitter @ritey or check out
 		my Github profile: http://www.github.com/ritey
@@ -43,62 +43,94 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon-72.jpg">
 	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon-114.jpg">
 
-    <link rel="stylesheet" href="{{ mix("css/app.css") }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-	@yield('head')
+    @yield('head')
 
 </head>
 <body id="totop" itemscope itemtype="https://schema.org/WebPage">
 
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="/"><img src="/assets/images/logo_ritey.jpg" alt="Ritey" width="95"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/" title="Visit the homepage">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="https://coderstudios.com" title="London Laravel Coder Studios">Coder Studios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE Photos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME Checker</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">UK Address Lookup</a>
-                </li>
-            </ul>
+    <header class="bg-white">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex items-center gap-x-12">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">David Wright</span>
+                    <img class="h-8 w-auto" src="/assets/images/logo_ritey.jpg" alt="Ritey">
+                </a>
+                <div class="hidden lg:flex lg:gap-x-12">
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" href="/" title="Visit the homepage">Home</a>
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a>
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" target="_blank" href="https://coderstudios.com" title="London Laravel Coder Studios">Coder Studios</a>
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE Photos</a>
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME Checker</a>
+
+                    <a class="text-sm font-semibold leading-6 text-gray-900" href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">UK Address Lookup</a>
+                </div>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-10"></div>
+            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">David Wright</span>
+                        <img class="h-8 w-auto" src="/assets/images/logo_ritey.jpg" alt="Ritey">
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="/" title="Visit the homepage">Home</a>
+
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a>
+
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" target="_blank" href="https://coderstudios.com" title="London Laravel Coder Studios">Coder Studios</a>
+
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE Photos</a>
+
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME Checker</a>
+
+                            <a class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" href="http://addresses.ritey.com" target="_blank" title="ADDRESSES - UK Postcode Checker">UK Address Lookup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <!-- /NAVIGATION -->
+    </header>
 
     @yield('content')
 
     <!-- FOOTER -->
-    <footer class="pt-5 pb-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <ul class="list-inline list-unstyled text-center">
-                        <li class="list-inline-item"><a href="http://github.com/ritey" target="_blank" title="Follow @ritey on Github David Wright PHP Laravel developer in Richmond Surrey London">Github</a></li>
-                        <li class="list-inline-item"><a href="http://twitter.com/ritey" target="_blank" title="Follow @ritey on Twitter David Wright PHP Laravel developer in Richmond Surrey London">Twitter</a></li>
-                    </ul>
-                </div>
+    <footer class="pt-5 pb-5 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="text-center">
+                <a href="https://github.com/ritey" target="_blank" title="Follow @ritey on Github David Wright PHP Laravel developer in Richmond Surrey London">Github</a></li>
+                <a href="https://twitter.com/ritey" target="_blank" title="Follow @ritey on Twitter David Wright PHP Laravel developer in Richmond Surrey London">Twitter</a>
             </div>
-            <div class="row">
-                <div class="col">
-                    <p class="copyright text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
-                    <p class="copyright text-center m-b-0">I live in Surrey, work and develop in Richmond and London areas.</p>
-                </div>
+            <div class="text-center">
+                <p class="text-gray-400 text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
+                <p class="text-gray-400 text-center m-b-0">I live in Surrey, work and develop in Richmond and London areas.</p>
             </div>
         </div>
     </footer>
@@ -108,8 +140,6 @@
 	<div style="display: block;" class="scroll-up">
 		<a href="#totop"><i class="fa fa-angle-double-up"><span hidden>-</span></i></a>
 	</div>
-
-	<script src="{{ mix('js/app.js') }}"></script>
 
 	<script>
 	  var _gaq = _gaq || [];
@@ -122,18 +152,5 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-	<!-- Start of Woopra Code -->
-	<script>
-	var woo_settings = {idle_timeout:'300000', domain:'ritey.com'};
-	(function(){
-	var wsc = document.createElement('script');
-	wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
-	wsc.type = 'text/javascript';
-	wsc.async = true;
-	var ssc = document.getElementsByTagName('script')[0];
-	ssc.parentNode.insertBefore(wsc, ssc);
-	})();
-	</script>
-	<!-- End of Woopra Code -->
 </body>
 </html>

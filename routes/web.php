@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', ['as' => 'index', 'uses' => 'HomeController@index']);
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
-Route::get('/cv', ['as' => 'cv', 'uses' => 'HomeController@cv']);
-Route::get('/hire-me', ['as' => 'hire-me', 'uses' => 'HomeController@cv']);
-Route::get('/freelance-php-developer', ['as' => 'freelance-php-developer', 'uses' => 'HomeController@cv']);
-Route::get('/london-laravel-developer', ['as' => 'london-laravel-developer', 'uses' => 'HomeController@cv']);
-Route::get('/northampton-laravel-developer', ['as' => 'northampton-laravel-developer', 'uses' => 'HomeController@cv']);
+Route::get('/cv', [HomeController::class, 'cv'])->name('cv');
+Route::get('/hire-me', [HomeController::class, 'cv'])->name('hire-me');
+Route::get('/freelance-php-developer', [HomeController::class, 'cv'])->name('freelance-php-developer');
+Route::get('/london-laravel-developer', [HomeController::class, 'cv'])->name('london-laravel-developer');
+Route::get('/northampton-laravel-developer', [HomeController::class, 'cv'])->name('northampton-laravel-developer');
 
-Route::get('/sitemap.xml', ['as' => 'sitemap', 'uses' => 'HomeController@sitemap']);
+Route::get('/sitemap.xml', [HomeController::class, 'sitemap'])->name('sitemap');
