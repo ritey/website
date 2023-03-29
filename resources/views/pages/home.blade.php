@@ -2,7 +2,7 @@
 
 @section('metas')
 <title>David Wright - Laravel Developer London & Surrey</title>
-<meta name="description" content="David Wright PHP Laravel developer in London. 10 years of web development experience Building the best web applications and user experiences with Laravel framework, ReactJS and custom API's">
+<meta name="description" content="PHP Laravel developer in London. 10 years of web development experience. Building web applications and user experiences with Laravel framework, ReactJS and custom API's">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 @endsection
