@@ -31,16 +31,16 @@
     <div class="">
 
         <div class="w-full md:w-1/2 mx-auto text-center">
-            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">If you're looking for a London based PHP developer (especially using the <strong>PHP Laravel framework</strong>) to help with a <strong>Laravel / PHP</strong> project or looking for someone to take on, plan, manage and develop your product from an idea to reality, contact me at <a href="http://www.coderstudios.com/contact" target="_blank" title="London based Laravel PHP Developers at Coder Studios">Coder Studios</a>.</p>
+            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">If you're looking for a London based PHP developer (especially using the <strong>PHP Laravel framework</strong>) to help with a <strong>Laravel / PHP</strong> project or looking for someone to take on, plan, manage and develop your product from an idea to reality, contact me at <a href="http://www.coderstudios.com/contact" target="_blank" title="London based Laravel PHP Developers at Coder Studios">Coder Studios</a>. This includes any #buildinpublic project, indie hacker or general web development where you might need guidance to build your app idea or startup web development into a real working web app.</p>
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800"><strong>Frontend Development</strong></p>
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">
-                Using the latest CSS and HTML techniques with our without templating engines like Blade or Twig and Javascript frameworks like JQuery, ReactJS and VueJs.
+                Using the latest CSS and HTML techniques with our without templating engines like Laravel's Blade or Twig and Javascript frameworks like Alpine.js, Next.js, JQuery, ReactJS and VueJs and CSS frameworks like TaildwindCSS or Bootstrap.
             </p>
-            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">Accessibility is a key focus along with search engine optimisation techniques which typically aid user experience by default.</p>
+            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">Accessibility is a key focus along with search engine optimisation techniques which typically aid user experience by default. I have over a decade of experience in making sure code is clean and complete with all the appropriate meta tags and aria labels, alt tags etc so get in touch if you want an existing site SEO reviewed or if you want to improve your SEO.</p>
 
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800"><strong>Backend Development</strong></p>
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">
-                Utilising the best PHP practices developing with the <strong>Laravel framework</strong>, contributing to open source projects and releasing <a href="https://packagist.org/search/?q=ritey" target="_blank" rel="nofollow">open source packages</a> for other developers to use. Currently working on a national donation platform perfecting user experiences, scalability, security and developing API's.
+                Utilising the best PHP practices developing with the <strong>Laravel framework</strong>, contributing to open source projects and releasing <a href="https://packagist.org/search/?q=ritey" target="_blank" rel="nofollow">open source packages</a> for other developers to use. Currently working on a <a href="https://status-screen.com/">Status Screen</a> perfecting user experience, scalability, security and online payments whilst also developing some API's with Laravel PHP framework.
             </p>
 
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800"><strong>Current Laravel Projects</strong></p>
@@ -52,10 +52,9 @@
 
             <p class="mt-0 mb-4 leading-6 text-left text-neutral-800"><strong>Are you a Laravel developer looking for work?</strong></p>
 
-            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">I often get asked by the clients I work with if I know any additional Laravel or Symfony developers or occassionally I'll need additional support so if you're a Laravel developer drop me your CV dave@coderstudios.com.</p>
+            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">I often get asked by the clients I work with if I know any additional Laravel or Symfony developers or occasionally I'll need additional support so if you're a Laravel PHP developer drop me your CV dave@coderstudios.com.</p>
 
-            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">Over ten years web development experience with: Laravel, PHP, MySQL, MariaDB, MSSQL	Debian, CentOS, Gluster, MariaDB,
-                BIG-V, ReactJS, Vue.js, ES6, Webpack, SASS, node.js, Git, Jenkins, CSS, HTML5, API, Ajax, Oauth, Memcache and Redis.
+            <p class="mt-0 mb-4 leading-6 text-left text-neutral-800">Over ten years web development experience with: Laravel, PHP, MySQL, MariaDB, MSSQ, Debian, CentOS, Gluster, MariaDB, Alpine.js, Next.js, ReactJS, Vue.js, ES6, Webpack, SASS, node.js, Git, Jenkins, CSS, HTML5, API, Ajax, Oauth, Memcache and Redis, TailwindCSS, Vite.js
             </p>
         </div>
     </div>
