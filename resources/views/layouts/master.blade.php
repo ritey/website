@@ -11,6 +11,8 @@
         <meta property="og:site_name" content="Ritey.com">
         <meta name="twitter:site" content="@ritey">
         <meta name="twitter:creator" content="@ritey">
+        <link rel="canonical" href="{{ url()->current() }}" />
+        <link rel="alternate" hreflang="en" href="{{ url()->current() }}" />
 
     @yield('metas')
 
