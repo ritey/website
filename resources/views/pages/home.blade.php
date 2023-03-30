@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<div class="container mx-auto">
+<div class="container mx-auto p-4">
 
     <!-- MODULE TITLE -->
     <div class="">

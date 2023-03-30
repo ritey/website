@@ -13,7 +13,7 @@
 
 @section('content')
 
-<div class="container mx-auto">
+<div class="container mx-auto p-4">
 
     <!-- MODULE TITLE -->
     <div class="w-full md:w-1/2 mx-auto text-center">
