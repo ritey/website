@@ -44,6 +44,7 @@
 	<link rel="apple-touch-icon" href="/assets/images/favicon-57.jpg">
 	<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon-72.jpg">
 	<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon-114.jpg">
+    <link rel="preload" href="{{ config('app.url') }}/assets/images/logo_ritey.jpg" as="image">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 

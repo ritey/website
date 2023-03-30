@@ -5,6 +5,8 @@
 <meta name="description" content="PHP Laravel developer in London. 10 years of web development experience. Building web applications with Laravel framework, ReactJS and custom API's">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
+<link rel="preload" href="{{ config('app.url') }}/assets/images/ritey.png" as="image" fetchpriority="high">
+
 @endsection
 
 @section('content')
