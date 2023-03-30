@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('metas')
-<title>David Wright - Laravel Developer London & Surrey</title>
+<title>David Wright - Laravel PHP Developer London & Surrey</title>
 <meta name="description" content="PHP Laravel developer in London. 10 years of web development experience. Building web applications with Laravel framework, ReactJS and custom API's">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
@@ -13,8 +13,8 @@
 
 <div class="container mx-auto mt-5 mb-5">
     <div class="w-full md:w-1/2 mx-auto">
-        <h1 class="mx-0 mt-12 mb-2 text-4xl font-medium text-center uppercase text-neutral-800" itemprop="author">David Wright</h1>
-        <h2 class="mt-12 mb-2 text-3xl font-medium text-center uppercase text-neutral-800">Founder &amp; web developer @ Coder Studios London</h2>
+        <h1 class="mx-0 mt-12 mb-2 text-2xl md:text-4xl font-medium text-center uppercase text-neutral-800" itemprop="author">David Wright</h1>
+        <h2 class="mt-12 mb-2 text-xl md:text-3xl font-medium text-center uppercase text-neutral-800">Founder &amp; web developer @ Coder Studios London</h2>
     </div>
 </div>
 
@@ -23,7 +23,7 @@
     <!-- MODULE TITLE -->
     <div class="">
         <div class="w-full md:w-1/2 mx-auto text-center">
-            <h3 class="mt-0 mb-6 text-2xl font-medium text-center uppercase text-neutral-800">Laravel Developer London</h3>
+            <h3 class="mt-0 mb-6 text-xl md:text-2xl font-medium text-center uppercase text-neutral-800">Laravel Developer London</h3>
             <img width="300" src="/assets/images/ritey.png" class="mx-auto rounded-full my-6" alt="David Wright - Coder Studios Founder">
             <h4 class="mt-0 mb-2 text-xl font-medium text-left text-neutral-800">London based, Laravel PHP developer, full time backend developer.</h4>
         </div>
