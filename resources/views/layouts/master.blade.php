@@ -66,8 +66,6 @@
 
                     <a class="text-sm font-semibold leading-6 text-gray-900" href="{{ route('freelance-php-developer') }}" title="London based Laravel PHP Developer">Hire me</a>
 
-                    <a class="text-sm font-semibold leading-6 text-gray-900" target="_blank" href="https://coderstudios.com" title="London Laravel Coder Studios">Coder Studios</a>
-
                     <a class="text-sm font-semibold leading-6 text-gray-900" href="http://photos.ritey.com" target="_blank" title="FREE Hi Res Photos">FREE Photos</a>
 
                     <a class="text-sm font-semibold leading-6 text-gray-900" href="http://mime.ritey.com" target="_blank" title="MIME Type Checker">MIME Checker</a>
