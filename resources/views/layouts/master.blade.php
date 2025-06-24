@@ -129,6 +129,7 @@
             <div class="text-center">
                 <a href="https://github.com/ritey" target="_blank" title="Follow @ritey on Github David Wright PHP Laravel developer in Richmond Surrey London">Github</a></li>
                 <a href="https://twitter.com/ritey" target="_blank" title="Follow @ritey on Twitter David Wright PHP Laravel developer in Richmond Surrey London">Twitter</a>
+                <a href="https://holidayactivityhub.com" target="_blank" title="My Holiday Activity Hub project">Holiday Activity Hub directory site</a>
             </div>
             <div class="text-center">
                 <p class="text-gray-400 text-center m-b-0">&copy; <?php echo date('Y'); ?> <a href="/">ritey.com</a>, All Rights Reserved.</p>
